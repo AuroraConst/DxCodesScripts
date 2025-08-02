@@ -23,7 +23,7 @@ val pdfReader = new PdfReader(ordersPdf.toJava.getAbsolutePath())
 val stamper:PdfStamper = new PdfStamper(pdfReader, new FileOutputStream(stamperPdf.toJava.getAbsolutePath()));
 val  canvas = stamper.getOverContent(1);
 // 4. Create font and text
-val bf = BaseFont.createFont(BaseFont.HELVETICA_BOLD, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
+val bf = BaseFont.createFont(BaseFont.HELVETICA, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
            
 // 5. Absolute positioning (x,y coordinates in points)
 canvas.beginText();
