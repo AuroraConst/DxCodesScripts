@@ -1,0 +1,32 @@
+node_modules/
+
+# scala related
+logs
+project/metals.sbt
+project/project
+project/target
+target
+tmp
+.vscode/
+.bsp/
+.history
+dist
+.idea
+*.iml
+/out
+.idea_modules
+.classpath
+.project
+.bloop
+.metals/
+build/
+.scala_build/
+/RUNNING_PID
+.settingsz
+.DS_Store
+/tmp
+null
+.scala-build
+package-lock.json
+PowerShell 7.5.0/metals/data/metals.lock.db
+PowerShell 7.5.0/metals/data/metals.mv.db
